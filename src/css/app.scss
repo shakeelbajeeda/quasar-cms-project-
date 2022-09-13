@@ -1,0 +1,66 @@
+// app global css in SCSS form
+.height-width {
+  width: 100vw !important;
+  height: 60vh !important;
+}
+.header-background {
+  background: #2f3b59;
+}
+.custom-dropdown .q-btn-dropdown__arrow {
+  display: none;
+}
+.custom-exp .q-expansion-item__toggle-icon {
+  display: none;
+}
+.custom-active {
+  border-bottom: 2px #31aaf4 solid;
+}
+
+.custom-form .q-field--filled .q-field__control {
+  background: #f8fbfe;
+  border: 1px solid #eee;
+}
+.custom-search-btn .q-btn--rectangle {
+  border-radius: 0px 26px 27px 0px;
+}
+.custom-search-border {
+  border: 5px solid grey;
+  width: 526px;
+}
+.custom-search-row {
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.custom-search-input-bg .q-field__native,
+.q-field__input {
+  background: white;
+  padding-left: 20px;
+}
+.custom-search-left-input .q-field__native,
+.q-field__input {
+  border-radius: 100px 0 0 100px;
+  -webkit-border-radius: 100px 0 0 100px;
+  -moz-border-radius: 100px 0 0 100px;
+  -ms-border-radius: 100px 0 0 100px;
+  -o-border-radius: 100px 0 0 100px;
+}
+custom-input-responsive .q-field__native,
+.q-field__input {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.custom-btn-width {
+  width: 270px;
+}
+.custom-search-lg {
+  position: absolute;
+  top: 173px;
+  left: 30%;
+}
